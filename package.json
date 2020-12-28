@@ -1,0 +1,17 @@
+{
+	"id":"com.moimz.minitalk.plugin.hello",
+	"icon":"xi xi-handshake",
+	"title":{
+		"ko":"자동인사 플러그인"
+	},
+	"version":"1.0.0",
+	"description":{
+		"ko":"미니톡 접속시 자동으로 환영메시지를 보여줍니다."
+	},
+	"author":{
+		"name":"Arzz",
+		"email":"arzz@arzz.com"
+	},
+	"homepage":"https://www.minitalk.io",
+	"language":"ko"
+}
