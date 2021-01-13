@@ -10,9 +10,5 @@
  * @modified 2020. 12. 24.
  */
 Minitalk.on("connect",function(minitalk,channel,user) {
-	if (Minitalk.version < 70000) {
-		Minitalk.ui.printMessage("plugin",user.nickname + "님, " + channel.title + " 채널에 접속하신 것을 환영합니다.");
-	} else {
-		Minitalk.ui.printSystemMessage("info",user.nickname + "님, " + channel.title + " 채널에 접속하신 것을 환영합니다.");
-	}
+	Minitalk.ui.printSystemMessage("plugin",user.nickname + "님, " + channel.title + " 채널에 접속하신 것을 환영합니다.");
 });
